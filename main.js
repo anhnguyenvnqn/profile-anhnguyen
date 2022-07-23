@@ -26,7 +26,7 @@ const data = [
     function: "",
 
     create: "23/07/2022",
-    demo: "https://vercel.com/anhnguyenvnqn/react-blog-news",
+    demo: "https://react-blog-news.vercel.app/",
     img1: "https://firebasestorage.googleapis.com/v0/b/blogging-556e1.appspot.com/o/images%2Fblog3.png?alt=media&token=260c1de0-9b25-4da0-9b55-652d22e0b60b",
     img2: "https://firebasestorage.googleapis.com/v0/b/blogging-556e1.appspot.com/o/images%2Fblog2.png?alt=media&token=5c0b0178-8ce7-4f53-864d-c15d1aeeb6f0",
     img3: "https://firebasestorage.googleapis.com/v0/b/blogging-556e1.appspot.com/o/images%2Fblog3.png?alt=media&token=260c1de0-9b25-4da0-9b55-652d22e0b60b",
