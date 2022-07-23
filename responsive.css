@@ -1,0 +1,145 @@
+@media (max-width: 1200px) {
+    .profile-contact  {
+       width: 80%;
+    }
+    .profile-img {
+        width: 400px;
+        height: 500px;
+    }
+    .profile-text {
+        height: 500px;
+        padding: 0;
+        margin-left: 80px;
+    }
+    .profile-text h1 {
+        font-size: 30px;
+        padding: 0;
+    }
+    .profile-text h1::before {
+        display: none;
+    }
+    .profile-text p {
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .gallery_inner  {
+        margin: 0;
+        width: 100%;
+    }
+    .container {
+        width: 100%;
+    }
+    .project-image {
+        width: 100%;
+    }
+    .skill {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+
+  @media (max-width: 1000px) {   
+    #profile::before {
+        display: none;       
+    }
+     .profile-contact {
+        padding: 150px 0;
+        flex-direction: column;  
+     }
+     .profile-img {
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+     }
+     .profile-text{
+        margin: 0;
+        text-align: center;
+     }
+     .profile-text button {
+        margin-top: 20px;
+     }
+     .profile-text h1::before {
+        display: none;
+     }
+    #myproject {
+        height: 100%;
+    }
+    .section-title {
+        padding: 40px 0;
+    }
+    .project {
+        grid-template-columns:1fr 1fr;
+        text-align: center;
+    }
+    .gallery_inner  {
+        flex-direction: column;
+    }
+    .gallery-left{
+        width: unset;
+    }
+    #about h5 {
+        padding: 0 50px;
+    }
+    .info{
+        flex-direction: column;
+    }
+    .info-about {
+        background-color: unset;
+    }
+    .info-details {
+     width: unset;
+    }
+    .skill {
+        grid-template-columns: 1fr 1fr;
+    }
+    .skill-item {
+        width: unset;
+    }
+    .resume {
+        flex-direction: column;
+    }
+    .resume_edu,
+    .resume_exp {
+        width: 100%;
+    }
+    .contact-layout {
+        flex-direction: column;
+    }
+    .contact-details-item {
+    width: 100%;
+    }
+    .contact-form {
+        margin-top: 20px;
+    }
+    .contact-form-infor {
+        flex-direction: column;
+    }
+    .contact-form-name, 
+    .contact-form-email {
+        width: 100%;
+    }
+    .contact-form-name {
+        margin-bottom: 20px;
+    }
+  }
+  @media (max-width: 768px) { 
+    .nav i {
+        font-size: 14px;
+        padding: 8px;
+    }
+    .project {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .project-image {
+        height: 450px;
+    }
+  }
+  @media (max-width: 660px) { 
+    .project-nav {
+        flex-direction: column;
+        align-items: center;
+    }
+    .project-nav span {
+        margin-bottom: 26px;
+    }
+  }
