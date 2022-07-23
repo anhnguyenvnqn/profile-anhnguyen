@@ -26,7 +26,7 @@ const data = [
     function: "",
 
     create: "23/07/2022",
-    demo: "https://react-blog-news.vercel.app",
+    demo: "https://vercel.com/anhnguyenvnqn/react-blog-news",
     img1: "https://firebasestorage.googleapis.com/v0/b/blogging-556e1.appspot.com/o/images%2Fblog3.png?alt=media&token=260c1de0-9b25-4da0-9b55-652d22e0b60b",
     img2: "https://firebasestorage.googleapis.com/v0/b/blogging-556e1.appspot.com/o/images%2Fblog2.png?alt=media&token=5c0b0178-8ce7-4f53-864d-c15d1aeeb6f0",
     img3: "https://firebasestorage.googleapis.com/v0/b/blogging-556e1.appspot.com/o/images%2Fblog3.png?alt=media&token=260c1de0-9b25-4da0-9b55-652d22e0b60b",
@@ -38,7 +38,7 @@ const data = [
     technologies:"HTML, CSS, JS",
     function: "",
     create: "2022",
-    demo: "youtube.com",
+    demo: "https://anhnguyenvnqn.github.io/profile-anhnguyen/",
     img1: "https://firebasestorage.googleapis.com/v0/b/blogging-556e1.appspot.com/o/images%2Fproject1.png?alt=media&token=e590bacb-50a3-4157-97dd-89162f9cd6d7",
     img2: "https://firebasestorage.googleapis.com/v0/b/blogging-556e1.appspot.com/o/images%2Fproject2.png?alt=media&token=dd4598db-578a-4da3-98c9-53b303cd6625",
     img3: "https://firebasestorage.googleapis.com/v0/b/blogging-556e1.appspot.com/o/images%2Fproject.png?alt=media&token=ff7a99a0-c287-4a8c-bb74-ee0b6c7773c9",
@@ -65,7 +65,7 @@ function renderData(data) {
           Create - <span>${data.create}</span>
         </li>
           <li>
-            Demo - <a href="/">${data.demo} </a>
+            Demo - <a href="${data.demo}">${data.demo} </a>
           </li>
         </ul>
         `;
