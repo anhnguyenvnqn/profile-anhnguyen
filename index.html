@@ -17,11 +17,15 @@
 
 
 <body>
+  <div class="time">
+    <div class="hour"></div>
+    <div>:</div>
+    <div class="min"></div>
+    
+  </div>
   <nav class="nav">
     <div class="toggle">
-      <a href="">
-        <i class="fa-solid fa-lightbulb"></i>
-      </a>
+        <i class="fa-solid fa-lightbulb"></i>   
     </div>
     <a href="#profile">
       <i class="fa-solid fa-house"></i>
@@ -50,7 +54,7 @@
               <div class="profile-text">
                 <h1>
                   Nguyen The Anh <br>
-                  <span>Front-End Developer!</span>
+                  <span>Web Developer!</span>
                 </h1>
                 <p>
                   Hello mọi người! <br>
@@ -58,8 +62,9 @@
                   Cơ duyên mình đến với IT là sau thời gian học tập và làm việc tại Nhật thì mình đã có thêm những góc nhìn về ngành IT. <br>
                   Tháng 12/2021, sau khi tìm hiểu mình biết đến cộng đồng F8 Fullstack và một số hội nhóm thì mình đã hoàn thành các khóa học cơ bản HTML, CSS, JS, ReactJS và có vận dụng làm được một số dự án cá nhân. <br>
                </p>
-                <button class="btn btn-big">ABOUT</button>
-                
+               <a href="#about">
+                    <button class="btn btn-big"> ABOUT </button>
+                </a>                
               </div>
         </div>
     </section>
@@ -134,8 +139,9 @@
       <div class="container">
           <div class="section-title">
             <h1 data-title="ABOUT ">ME</h1>
-        </div>
-        <h5>Đối với mình không có công việc nào là bắt đầu muộn cả trừ khi mình chưa thực sự tập trung vào nó.</h5>
+        </div> 
+        <h5>Nắm bắt cơ hội tốt nhất và làm việc hết mình.</h5>
+
         <div class="info">
           <div class="info-details">
            <h3>PERSONAL INFOS</h3>
@@ -254,6 +260,17 @@
                 <p></p>
               </div>
             </div>
+            <div class="resume_item">
+              <div class="resume_item_icon">
+                <i class="fa-solid fa-graduation-cap"></i>
+              </div>
+              <div class="resume_item-edu">
+                <span>12/2021 - Present</span>
+                <h3>F8-fullstack</h3>
+                <p>- Front-end technology web application development. <br>
+                  Proficiency in HTML, CSS, JavaScript</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -265,60 +282,68 @@
             <h1 data-title="GET IN ">TOUCH</h1>
         </div>
         <div class="contact-layout">
-
-        <div class="contact-details">
-          <div class="contact-details-item">
-            <i class="icon-address fa-solid fa-location-dot"></i>
-            <div>
-              <h5>ADDRESS</h5> 
-              <span>Nam Tu Liem - Ha Noi - Viet Nam</span>
-            </div>
-          </div>
-          <div class="contact-details-item">
-            <i class="fa-solid fa-envelope"></i>
-            <div>
-              <h5>EMAIL</h5> 
-              <span>anhnguyenjpw@gmail.com</span>
-            </div>
-          </div>
-          <div class="contact-details-item">
-            <i class="fa-solid fa-phone"></i>
-            <div>
-              <h5>PHONE</h5> 
-              <span>033.992.3301</span>
-            </div>
-          </div>
-          <div class="contact-details-socical">
-            <i class="fa-brands fa-facebook"></i>
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-twitter"></i>
-          </div>
-        </div>
-        
-        <div class="contact-form">
-          <div class="contact-form-infor">
-            <div class="contact-form-name">
-              <input placeholder="YOUR NAME" type="">
+          <div class="contact-details">
+            <div class="contact-details-item">
+              <i class="icon-address fa-solid fa-location-dot"></i>
+              <div>
+                <h5>ADDRESS</h5> 
+                <span>Nam Tu Liem - Ha Noi - Viet Nam</span>
               </div>
-             <div class="contact-form-email">
-               <input placeholder="YOUR EMAIL" type="">
-               </div>
+            </div>
+            <div class="contact-details-item">
+              <i class="fa-solid fa-envelope"></i>
+              <div>
+                <h5>EMAIL</h5> 
+                <span>anhnguyenjpw@gmail.com</span>
+              </div>
+            </div>
+            <div class="contact-details-item">
+              <i class="fa-solid fa-phone"></i>
+              <div>
+                <h5>PHONE</h5> 
+                <span>033.992.3301</span>
+              </div>
+            </div>
+            <div class="contact-details-socical">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-twitter"></i>
+            </div>
           </div>
+          
+          <form class="contact-form ">
+            <div class="contact-form-infor">
+              <div class="contact-form-name">
+                <input id="yourname" placeholder="YOUR NAME" type="text">
+                <small></small>
 
-          <div class="contact-form-mesage">
-            <textarea name="" id="" placeholder="YOUR MESSAGE" cols="30" rows="10"></textarea>
-          </div>
-          <button class="btn btn-big">SEND MESSAGE</button>
+              </div>
+              <div class="contact-form-email">
+                <input id="email" placeholder="YOUR EMAIL" type="email">
+                <small></small>
+
+              </div>
+            </div>
+
+            <div class="contact-form-mesage">
+              <textarea name="" id="message" placeholder="YOUR MESSAGE" type="text" cols="30" rows="10"></textarea>
+                <small></small>
+
+            </div>
+            <button type="submit" class="btn btn-big form_login-contact">SEND MESSAGE</button>
+          </form>
+        </div>
+        <div class="contact_footer"> 
+      
+          <h2 class="skill-heading">Finally, I would like to say "Thank You" for spent time to look at my CV profile.</h2>
         </div>
       </div>
-
-      </div>
-      </section>
-     <script src="./main.js"></script>
-
+    </section>
+      
       <script>
         AOS.init();
-      </script>
+        </script>
+        <script src="./main.js"></script>
 </body>
 <script src="./main.js"></script>
 </html>
