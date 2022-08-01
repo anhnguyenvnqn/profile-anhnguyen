@@ -16,9 +16,10 @@ const data = [
     function: "Create Modal, Image Gallery, Filter Elements, REPONSIVE, AOS ANIMATION",
     create: "2022",
     demo: "https://anhnguyenvnqn.github.io/nihon-restourant/",
-    img1: "https://anhnguyenvnqn.github.io/nihon-restourant/image/nha-hang-nhat-8.jpg",
-    img2: "https://anhnguyenvnqn.github.io/nihon-restourant/image/aboutimage.jpg",
-    img3: "https://firebasestorage.googleapis.com/v0/b/blogging-556e1.appspot.com/o/images%2Fnihon-restouran3.png?alt=media&token=adb628d7-e700-4429-bd1c-8e3940f7c920",
+    img1: "./image/nha-hang-nhat-8.jpg",
+    img2: "./image/nha-hang-nhat-100.jpg",
+    img3: "./image/nihon-restouran3.png",
+  
   },
   {
     id: 2,
@@ -29,9 +30,10 @@ const data = [
 
     create: "23/07/2022",
     demo: "https://react-blog-news.vercel.app/",
-    img1: "https://firebasestorage.googleapis.com/v0/b/blogging-556e1.appspot.com/o/images%2Fblog3.png?alt=media&token=260c1de0-9b25-4da0-9b55-652d22e0b60b",
-    img2: "https://firebasestorage.googleapis.com/v0/b/blogging-556e1.appspot.com/o/images%2Fblog2.png?alt=media&token=5c0b0178-8ce7-4f53-864d-c15d1aeeb6f0",
-    img3: "https://firebasestorage.googleapis.com/v0/b/blogging-556e1.appspot.com/o/images%2Fblog3.png?alt=media&token=260c1de0-9b25-4da0-9b55-652d22e0b60b",
+    img1: "./image/BLOG.png",
+    img2: "./image/blog1.png",
+    img3: "./image/blog2.png",
+    
   },
   {
     id: 3,
@@ -41,9 +43,21 @@ const data = [
     function: "Image Gallery,Slideshow, REPONSIVE, AOS ANIMATION",
     create: "2022",
     demo: "https://anhnguyenvnqn.github.io/profile-anhnguyen/",
-    img1: "https://firebasestorage.googleapis.com/v0/b/blogging-556e1.appspot.com/o/images%2Fproject1.png?alt=media&token=e590bacb-50a3-4157-97dd-89162f9cd6d7",
-    img2: "https://firebasestorage.googleapis.com/v0/b/blogging-556e1.appspot.com/o/images%2Fproject2.png?alt=media&token=dd4598db-578a-4da3-98c9-53b303cd6625",
-    img3: "https://firebasestorage.googleapis.com/v0/b/blogging-556e1.appspot.com/o/images%2Fproject.png?alt=media&token=ff7a99a0-c287-4a8c-bb74-ee0b6c7773c9",
+    img1: "./image/project4.png",
+    img2: "./image/project1.png",
+    img3: "./image/project3.png",
+  },
+  {
+    id: 4,
+    name: "Mp3 - app",
+    decscription: "Music, Mp3-app",
+    technologies: "HTML, CSS, JS",
+    function: "Play, pause, next, prev, repeat, random, animation...",
+    create: "2022",
+    demo: "https://anhnguyenvnqn.github.io/mp3-app/",
+    img1: "./image/mp3app.png",
+    img2: "./image/mp3app1.png",
+    img3: "./image/mp3app2.png",
   },
 ];
 // validate form contact
@@ -124,6 +138,7 @@ setInterval(() => {
 // light/dark mode
 lightDark.addEventListener("click", () => {
   document.body.classList.toggle("dark");
+  lightDark.classList.toggle("dark-mode")
 });
 //close
 close.addEventListener("click", function () {

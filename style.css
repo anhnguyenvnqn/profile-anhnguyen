@@ -94,6 +94,19 @@ body.dark {
   background-color: var(--primary-color);
   color: white;
 }
+
+.toggle .icon-off {
+  display: none;
+
+} 
+.toggle.dark-mode .icon-on {
+  display: none;
+  
+} 
+.toggle.dark-mode .icon-off {
+  display: block;
+  
+} 
 /* profile  */
 #profile {
   position: relative;
@@ -388,7 +401,6 @@ body.dark {
   margin-bottom: 36px;
 }
 .info-details li {
-  font-size: 18px;
   line-height: 18px;
   margin: 15px 0;
   color: #696969;
@@ -396,7 +408,6 @@ body.dark {
 }
 .info-details span {
   color: var(--text-color);
-  font-size: 18px;
   margin-left: 8px;
   font-weight: 500;
 }
