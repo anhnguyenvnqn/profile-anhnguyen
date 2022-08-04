@@ -550,6 +550,8 @@ body.dark {
 }
 .resume_item h3 {
   padding: 10px 0;
+  word-spacing: 2px;
+ 
 }
 .resume_item p {
   font-size: 14px;
@@ -557,6 +559,7 @@ body.dark {
   
 }
 .resume_item-edu {
+  
   margin: 14px;
   flex: 1;
 }
